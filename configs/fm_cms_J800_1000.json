@@ -1,0 +1,44 @@
+{
+    "name": "fm_cms_J800_1000",
+
+    "sigma" : 0.0001,
+    "n_steps": 25,
+
+    "reduce_ds_train": 2000000,
+    "reduce_ds_valid": 20000,
+    "eval_num_events" : 10000,
+
+    "entry_start_train": 0,
+    "entry_start_valid": 0,
+    "entry_start_test": 0,
+    
+    "num_epochs": 10000,
+    "learningrate": 0.0001,
+    "batchsize": 100,
+    "val_batchsize": 2000,
+
+    "num_workers": 6,
+    "lr_scheduler" : false,
+    "use_swa": true,
+    "check_val_every_n_epoch" : 1,
+    "use_pos_embd": true,
+    "time_pow" : true,
+    "use_global" : true,
+    "gradient_clip_val" : 1.0,
+    "use_prev" : true,
+    "train_npf" : true,
+    "masked_mean" : true,
+    
+    
+    "eval_dir" : "/storage/agrp/dmitrykl/fastsim/FS_evals/",
+    "truth_path_train": "/storage/agrp/dmitrykl/fastsim/f_delphes/data/Jet800_1000/train_800_1000_filter.root",
+    "truth_path_valid": "/storage/agrp/dmitrykl/fastsim/f_delphes/data/Jet800_1000/val_800_1000_filter.root",
+    "truth_path_test": "/storage/agrp/dmitrykl/fastsim/f_delphes/data/Jet1400/test_1400_filter.root",
+    
+    "max_particles" : 201,
+
+    "act" : "silu",
+    "num_dit_layers" : 3,
+    "hidden_dim" : 128,
+    "num_heads" : 8
+}

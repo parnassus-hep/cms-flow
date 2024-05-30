@@ -1,0 +1,11 @@
+awkward==1.10.2
+comet_ml==3.42.0
+matplotlib==3.7.5
+numpy==1.22.4
+pytorch_lightning==1.9.5
+scipy==1.7.3
+torch==1.13.1
+torchcfm==1.0.5
+torchdiffeq==0.2.3
+tqdm==4.64.1
+uproot==4.3.7
