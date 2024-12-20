@@ -1,8 +1,8 @@
 # Official repository for "Parnassus: An Automated Approach to Accurate, Precise, and Fast Detector Simulation and Reconstruction" paper
 
-This repository contains the code for the paper "Parnassus: An Automated Approach to Accurate, Precise, and Fast Detector Simulation and Reconstruction", [arXiv:X](X).
+This repository contains the code for the paper "Parnassus: An Automated Approach to Accurate, Precise, and Fast Detector Simulation and Reconstruction", [arXiv:2406.01620](https://arxiv.org/abs/2406.01620).
 
-The dataset used in the paper can be found [here]([https://zenodo.org](https://zenodo.org/records/11389651)).
+The dataset used in the paper can be found [here](https://zenodo.org/records/11389651).
 
 ## Requirements
 The list of packages required to train/evaluate model is found at `requirements.txt` file. All studies were done with `Python 3.8.15`.
